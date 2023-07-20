@@ -31,11 +31,13 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 For users of the Horiseon landing page, there is no installation needed beyong having a browser.  (see [Usage](#usage))
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+For developers, installation requires:
+- Access to GitHub repository [github.com/stevreut/horiseon-semantichtml-upgrade-ch2](https://github.com/stevreut/horiseon-semantichtml-upgrade-ch2) 
+- Appropriate tools for editing, testing, and deploying component modules.
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+The resuts of this project are an enhanced version of the Horiseon web site which is used simply by accessing that site via web browser at [stevreut.github.io/horiseon-semantichtml-upgrade-ch2/index.html](https://stevreut.github.io/horiseon-semantichtml-upgrade-ch2/index.html) .
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
