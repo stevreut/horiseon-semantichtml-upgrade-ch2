@@ -2,13 +2,13 @@
 
 ## Description
 
-A project whose goal is replace legacy HTML tags in Horiseon's gateway/landing page (index.html) with semantic tags where applicable, and to make the necessary
+A project whose goal is to replace legacy HTML tags in Horiseon's gateway/landing page (index.html) with semantic tags where applicable, and to make the necessary
 corresponding alterations to the corresponding style.css page.
 
-An additional objective of this project is the consolidation of CSS styles where possible and the realignment of some of those styles so that semantic flow of styles better supports the semantic flow of the document they support.
+An additional objective of this project is the consolidation of CSS styles where possible and the realignment of some of those styles so that semantic flow of styles better supports the semantic flow of their corresponding HTML documents.
 
-- This project was motivated by the need to increase the accessibility of the Horeiseon landing page.
-- Pursuing this project will enable automated web readers, such as those used by people with visual disability, to more completely and correctly interpret the
+- This project was motivated by the need to increase the accessibility of the Horiseon landing page.
+- Pursuing this project will enable automated web readers, such as those used by people with visual disabilities, to more completely and correctly interpret the
 content of this landing page.
 - Making these changes not only increases accessibility but also makes the HTML content better able to be read by
 future developers since the semantics/meaning of the various sections and elements are now made explicitly clear by the HTML tags and associated styles used.
@@ -43,11 +43,9 @@ Resulting web presentation should resemble the following:
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+Special thanks to the teaching staff of the University of Pennsylvania Full Stack Coding Boot Camp (UPENN-VIRT-FSF-FT-07-2023-U-LOLC-M-F).
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+Innumerable publicly available reference resources were consulted in pursuing this project.
 
 ## License
 
