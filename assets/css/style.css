@@ -1,13 +1,19 @@
+/* Universal selector style - applies to all aspects of the page
+unless overridden by a more specific style. */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Applies to all elements of the content of the page unless
+overridden by more specific styles. */
 body {
     background-color: #d9dcd6;
 }
 
+/* Applies by default to all parts of the header element 
+(not to be confused with the 'head' element). */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +21,26 @@ header {
     color: #ffffff;
 }
 
+/* Applies to the h1 element within the header element.
+Forces very large font for what serves as the banner of
+the page. */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Applies to the text associated with the 'seo' class within
+the hi element in the header element.  This causes the letters
+'seo' within the larger word 'Horiseon' to appear with a slightly
+different color than the remainder of the word. */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Applies to the 'nav' element within the 'header' element. 
+Specifies the appearance of the navigation choices and,
+specifically, aligns the navigational choices on the right side
+of the header. */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
