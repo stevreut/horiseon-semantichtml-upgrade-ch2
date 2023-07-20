@@ -49,24 +49,34 @@ header nav {
     font-size: 20px;
 }
 
+/* Applies to the ul element (unordered list) with the nav element
+within the header element - the default style for the navigation
+selection list. */
 header nav ul {
     list-style-type: none;
 }
 
+/* Applies to the li elements within the ul element within
+the nav element within the header element - the style
+applicable to each choice within navigational choices. */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Applies to all a/anchor elements. */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Applies to all p/paragraph elements. */
 p {
     font-size: 16px;
 }
 
+/* Applies only to img elements in-scope for the hero class
+(the main banner images). */
 .hero img {
     height: 800px;
     width: 100%;
@@ -75,22 +85,32 @@ p {
     background-position: center;
 }
 
+/* float-left and float-right are used alternately in the 
+presentation of text and graphics for each of the sections in
+the main content, thus breaking up the visual monotony
+in that column of the page. */
+
+/* Causes the item to be floated on the left side of the container. */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Causes the item to be floated on the right side of the container. */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Style class used by the div element that contains the main sections
+of the page. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Style class used by EACH of the main sections of the page. */
 .content-section {
     margin-bottom: 20px;
     padding: 50px;
@@ -100,15 +120,19 @@ p {
     color: #ffffff;
 }
 
+/* Applies to img elements within scope of the content-section class. */
 .content-section img {
     max-height: 200px;
 }
 
+/* Applies to h2 elements within scope of the content-section class. */
 .content-section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Style class used by the div element that includes the right column of the
+page that enumerates benefits. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -120,22 +144,27 @@ p {
     background-color: #2589bd;
 }
 
+/* Style class used by EACH section element that is in-scope of the
+benefits div element of the page. */
 .benefit-sect {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Applies to h3 elements within class benefit. */
 .benefit-sect h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Applies to img elements within class benefit. */
 .benefit-sect img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Applies to the footer element. */
 footer {
     padding: 30px;
     clear: both;
@@ -143,6 +172,7 @@ footer {
     text-align: center;
 }
 
+/* Applies to the h2 element within the footer element. */
 footer h2 {
     font-size: 20px;
 }
