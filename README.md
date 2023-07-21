@@ -35,7 +35,7 @@ For developers, installation requires:
 
 ## Usage
 
-The resuts of this project are an enhanced version of the Horiseon web site which is used simply by accessing that site via web browser at [stevreut.github.io/horiseon-semantichtml-upgrade-ch2/index.html](https://stevreut.github.io/horiseon-semantichtml-upgrade-ch2/index.html) .
+The resuts of this project are an enhanced version of the Horiseon web site which is used simply by accessing that site via web browser at [stevreut.github.io/horiseon-semantichtml-upgrade-ch2/](https://stevreut.github.io/horiseon-semantichtml-upgrade-ch2/) .
 
 Resulting web presentation should resemble the following:
 
